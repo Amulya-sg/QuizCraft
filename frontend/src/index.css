@@ -1,0 +1,95 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500;600;800&family=Work+Sans&display=swap");
+
+html,body{
+  margin: 0;
+  padding: 0;
+  background: #05101c;
+  color: white;
+  font-family: "Roboto Slab", serif;
+}
+
+.image-inverted{
+  filter: invert(100%);
+}
+
+.nav-link{
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-right: 10px;
+  margin-left: 10px;
+  padding: 8px 20px;
+  border-radius: 10px;
+  text-decoration: none;
+  letter-spacing: 1px;
+}
+
+.MuiOutlinedInput-input-root.Mui-focused,
+.MuiOutlinedInput-notchedOutline {
+  border-color: white !important;
+}
+ */
+
+
+ 
+ @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: #f0f4f8;
+  color: #333;
+  font-family: "Poppins", sans-serif;
+}
+
+.image-inverted {
+  filter: invert(0%);
+}
+
+.nav-link {
+  font-weight: 500;
+  text-transform: capitalize;
+  margin-right: 15px;
+  margin-left: 15px;
+  padding: 10px 20px;
+  border-radius: 25px;
+  text-decoration: none;
+  letter-spacing: 0.5px;
+  transition: all 0.3s ease;
+  color: #333;
+}
+
+.nav-link:hover {
+  background-color: #e0e7ff;
+  color: #4f46e5;
+}
+
+.MuiOutlinedInput-input-root.Mui-focused,
+.MuiOutlinedInput-notchedOutline {
+  border-color: #4f46e5 !important;
+}
+
+.MuiOutlinedInput-root {
+  background-color: white;
+  border-radius: 12px;
+}
+
+.MuiButton-root {
+  text-transform: none;
+  font-weight: 600;
+  border-radius: 25px;
+  padding: 10px 20px;
+  transition: all 0.3s ease;
+}
+
+.MuiButton-contained {
+  background-color: #4f46e5;
+}
+
+.MuiButton-contained:hover {
+  background-color: #4338ca;
+}
+
+.MuiCard-root {
+  border-radius: 16px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
