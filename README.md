@@ -52,7 +52,7 @@ This project is an intelligent **Automatic Quiz Generator** that leverages **Ret
    - Pass retrieved context and topic into the Phi-3.5 model for quiz generation.
 
 5. **Quiz Generation**:
-   - The model outputs questions based on the selected format.
+   - The model outputs questions in a txt document which can be downloaded.
 
 
 
